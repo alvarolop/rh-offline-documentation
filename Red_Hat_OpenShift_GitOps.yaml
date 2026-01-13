@@ -1,0 +1,100 @@
+product: Red_Hat_OpenShift_GitOps
+version: "1.19"
+base_pdf_url: "https://docs.redhat.com/en/documentation/red_hat_openshift_gitops/1.19"
+
+documentation_sections:
+  - category: "01 Get started"
+    description: "Introduction and overview for OpenShift GitOps"
+    guides:
+      - title: "Release notes"
+        description: "Highlights of what is new and what has changed with this OpenShift GitOps release"
+        url: "https://docs.redhat.com/en/documentation/red_hat_openshift_gitops/1.19/pdf/release_notes/Red_Hat_OpenShift_GitOps-1.19-Release_notes-en-US.pdf"
+      - title: "Understanding OpenShift GitOps"
+        description: "Introduction to OpenShift GitOps"
+        url: "https://docs.redhat.com/en/documentation/red_hat_openshift_gitops/1.19/pdf/understanding_openshift_gitops/Red_Hat_OpenShift_GitOps-1.19-Understanding_OpenShift_GitOps-en-US.pdf"
+      - title: "Managing cluster configuration"
+        description: "Managing OpenShift Container Platform cluster configuration"
+        url: "https://docs.redhat.com/en/documentation/red_hat_openshift_gitops/1.19/pdf/managing_cluster_configuration/Red_Hat_OpenShift_GitOps-1.19-Managing_cluster_configuration-en-US.pdf"
+
+  - category: "02 Install"
+    description: "Install or remove OpenShift GitOps"
+    guides:
+      - title: "Installing GitOps"
+        description: "Installing the OpenShift GitOps Operator, logging in to the Argo CD instance, and installing the GitOps CLI"
+        url: "https://docs.redhat.com/en/documentation/red_hat_openshift_gitops/1.19/pdf/installing_gitops/Red_Hat_OpenShift_GitOps-1.19-Installing_GitOps-en-US.pdf"
+      - title: "Removing GitOps"
+        description: "Removing OpenShift GitOps Operator from your cluster"
+        url: "https://docs.redhat.com/en/documentation/red_hat_openshift_gitops/1.19/pdf/removing_gitops/Red_Hat_OpenShift_GitOps-1.19-Removing_GitOps-en-US.pdf"
+
+  - category: "03 Set up"
+    description: "Configure Argo CD instances, applications, and access control"
+    guides:
+      - title: "Argo CD instance"
+        description: "Installing and deploying Argo CD instances, enabling notifications, and configuring NotificationsConfiguration CR"
+        url: "https://docs.redhat.com/en/documentation/red_hat_openshift_gitops/1.19/pdf/argo_cd_instance/Red_Hat_OpenShift_GitOps-1.19-Argo_CD_instance-en-US.pdf"
+      - title: "Access control and user management"
+        description: "Configuring user authentication and access controls for users and namespaces"
+        url: "https://docs.redhat.com/en/documentation/red_hat_openshift_gitops/1.19/pdf/access_control_and_user_management/Red_Hat_OpenShift_GitOps-1.19-Access_control_and_user_management-en-US.pdf"
+      - title: "Managing resource use"
+        description: "Configuring resource requests and limits for Argo CD workloads"
+        url: "https://docs.redhat.com/en/documentation/red_hat_openshift_gitops/1.19/pdf/managing_resource_use/Red_Hat_OpenShift_GitOps-1.19-Managing_resource_use-en-US.pdf"
+      - title: "Argo CD applications"
+        description: "Creating and deploying applications on the OpenShift cluster using Argo CD dashboard, oc tool, or GitOps CLI"
+        url: "https://docs.redhat.com/en/documentation/red_hat_openshift_gitops/1.19/pdf/argo_cd_applications/Red_Hat_OpenShift_GitOps-1.19-Argo_CD_applications-en-US.pdf"
+      - title: "Argo CD application sets"
+        description: "Managing the application set resources in non-control plane namespaces"
+        url: "https://docs.redhat.com/en/documentation/red_hat_openshift_gitops/1.19/pdf/argo_cd_application_sets/Red_Hat_OpenShift_GitOps-1.19-Argo_CD_application_sets-en-US.pdf"
+      - title: "Multitenancy"
+        description: "Understanding multitenancy support in GitOps"
+        url: "https://docs.redhat.com/en/documentation/red_hat_openshift_gitops/1.19/pdf/multitenancy/Red_Hat_OpenShift_GitOps-1.19-Multitenancy-en-US.pdf"
+      - title: "Declarative cluster configuration"
+        description: "Configuring an OpenShift cluster with cluster configurations by using OpenShift GitOps"
+        url: "https://docs.redhat.com/en/documentation/red_hat_openshift_gitops/1.19/pdf/declarative_cluster_configuration/Red_Hat_OpenShift_GitOps-1.19-Declarative_cluster_configuration-en-US.pdf"
+      - title: "Argo CD Agent architecture"
+        description: "Architecture and terminology used in the Argo CD Agent for agent-based GitOps communication"
+        url: "https://docs.redhat.com/en/documentation/red_hat_openshift_gitops/1.19/pdf/argo_cd_agent_architecture/Red_Hat_OpenShift_GitOps-1.19-Argo_CD_Agent_architecture-en-US.pdf"
+      - title: "Argo CD Agent installation"
+        description: "Installing and deploying the Argo CD Agent using a helm chart"
+        url: "https://docs.redhat.com/en/documentation/red_hat_openshift_gitops/1.19/pdf/argo_cd_agent_installation/Red_Hat_OpenShift_GitOps-1.19-Argo_CD_Agent_installation-en-US.pdf"
+
+  - category: "04 Progressive delivery"
+    description: "Progressive delivery with Argo Rollouts"
+    guides:
+      - title: "Argo Rollouts"
+        description: "Using Argo Rollouts for progressive delivery"
+        url: "https://docs.redhat.com/en/documentation/red_hat_openshift_gitops/1.19/pdf/argo_rollouts/Red_Hat_OpenShift_GitOps-1.19-Argo_Rollouts-en-US.pdf"
+
+  - category: "05 Security"
+    description: "Security features for GitOps"
+    guides:
+      - title: "Security"
+        description: "Using security features to configure secure communication and protect sensitive data in transit"
+        url: "https://docs.redhat.com/en/documentation/red_hat_openshift_gitops/1.19/pdf/security/Red_Hat_OpenShift_GitOps-1.19-Security-en-US.pdf"
+
+  - category: "06 Reference"
+    description: "CLI and reference documentation"
+    guides:
+      - title: "GitOps CLI (argocd) reference"
+        description: "Configuring the GitOps CLI and logging in to the Argo CD server in the default mode"
+        url: "https://docs.redhat.com/en/documentation/red_hat_openshift_gitops/1.19/pdf/gitops_cli_argocd_reference/Red_Hat_OpenShift_GitOps-1.19-GitOps_CLI_argocd_reference-en-US.pdf"
+
+  - category: "07 Manage"
+    description: "Managing GitOps workloads"
+    guides:
+      - title: "GitOps workloads on infrastructure nodes"
+        description: "Running GitOps control plane workloads on infrastructure nodes"
+        url: "https://docs.redhat.com/en/documentation/red_hat_openshift_gitops/1.19/pdf/gitops_workloads_on_infrastructure_nodes/Red_Hat_OpenShift_GitOps-1.19-GitOps_workloads_on_infrastructure_nodes-en-US.pdf"
+
+  - category: "08 Observability"
+    description: "Monitoring and observability for GitOps"
+    guides:
+      - title: "Observability"
+        description: "Using observability features to view Argo CD logs and monitor performance and health of Argo CD and application resources"
+        url: "https://docs.redhat.com/en/documentation/red_hat_openshift_gitops/1.19/pdf/observability/Red_Hat_OpenShift_GitOps-1.19-Observability-en-US.pdf"
+
+  - category: "09 Troubleshoot"
+    description: "Troubleshooting GitOps issues"
+    guides:
+      - title: "Troubleshooting issues"
+        description: "Troubleshooting topics for OpenShift GitOps and your cluster"
+        url: "https://docs.redhat.com/en/documentation/red_hat_openshift_gitops/1.19/pdf/troubleshooting_issues/Red_Hat_OpenShift_GitOps-1.19-Troubleshooting_issues-en-US.pdf"

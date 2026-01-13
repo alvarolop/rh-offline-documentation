@@ -1,0 +1,51 @@
+product: Red_Hat_OpenShift_Logging
+version: "6.4"
+base_pdf_url: "https://docs.redhat.com/en/documentation/red_hat_openshift_logging/6.4"
+
+documentation_sections:
+  - category: "01 About"
+    description: "Overview, compatibility, and release notes for OpenShift Logging"
+    guides:
+      - title: "About OpenShift logging"
+        description: "Introduction to OpenShift logging"
+        url: "https://docs.redhat.com/en/documentation/red_hat_openshift_logging/6.4/pdf/about_openshift_logging/Red_Hat_OpenShift_Logging-6.4-About_OpenShift_logging-en-US.pdf"
+      # - title: "Verifying version compatibility"
+      #   description: "Check the compatibility of the logging version with OpenShift Container Platform"
+      #   url: "https://docs.redhat.com/en/documentation/red_hat_openshift_logging/6.4/pdf/verifying_version_compatibility/Red_Hat_OpenShift_Logging-6.4-Verifying_version_compatibility-en-US.pdf"
+      - title: "Release notes"
+        description: "Highlights of what is new and what has changed with this OpenShift logging release"
+        url: "https://docs.redhat.com/en/documentation/red_hat_openshift_logging/6.4/pdf/release_notes/Red_Hat_OpenShift_Logging-6.4-Release_notes-en-US.pdf"
+
+  - category: "02 Installing"
+    description: "Install or uninstall the logging stack"
+    guides:
+      - title: "Installing logging"
+        description: "Installing Loki Operator, OpenShift Logging Operator and Cluster Observability Operator"
+        url: "https://docs.redhat.com/en/documentation/red_hat_openshift_logging/6.4/pdf/installing_logging/Red_Hat_OpenShift_Logging-6.4-Installing_logging-en-US.pdf"
+      - title: "Uninstalling logging"
+        description: "Uninstalling Loki Operator, OpenShift Logging Operator and UIPlugin"
+        url: "https://docs.redhat.com/en/documentation/red_hat_openshift_logging/6.4/pdf/uninstalling_logging/Red_Hat_OpenShift_Logging-6.4-Uninstalling_logging-en-US.pdf"
+
+  - category: "03 Configuring"
+    description: "Configure logging, forwarding, and LokiStack"
+    guides:
+      - title: "Configuring logging"
+        description: "Configuring log forwarding and LokiStack"
+        url: "https://docs.redhat.com/en/documentation/red_hat_openshift_logging/6.4/pdf/configuring_logging/Red_Hat_OpenShift_Logging-6.4-Configuring_logging-en-US.pdf"
+
+  - category: "04 Using"
+    description: "Operate and use logging features"
+    guides:
+      - title: "Scheduling resources"
+        description: "Scheduling log forwarding and LokiStack resources"
+        url: "https://docs.redhat.com/en/documentation/red_hat_openshift_logging/6.4/pdf/scheduling_resources/Red_Hat_OpenShift_Logging-6.4-Scheduling_resources-en-US.pdf"
+      - title: "Logging alerts"
+        description: "Configuring logging alerts"
+        url: "https://docs.redhat.com/en/documentation/red_hat_openshift_logging/6.4/pdf/logging_alerts/Red_Hat_OpenShift_Logging-6.4-Logging_alerts-en-US.pdf"
+
+  - category: "05 Upgrading"
+    description: "Upgrade OpenShift logging"
+    guides:
+      - title: "Upgrading logging"
+        description: "Upgrading logging 5 to 6"
+        url: "https://docs.redhat.com/en/documentation/red_hat_openshift_logging/6.4/pdf/upgrading_logging/Red_Hat_OpenShift_Logging-6.4-Upgrading_logging-en-US.pdf"

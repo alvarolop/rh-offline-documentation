@@ -1,0 +1,66 @@
+product: Red_Hat_OpenShift_Pipelines
+version: "1.20"
+base_pdf_url: "https://docs.redhat.com/en/documentation/red_hat_openshift_pipelines/1.20"
+
+documentation_sections:
+  - category: "01 About"
+    description: "Introduction and release notes for OpenShift Pipelines"
+    guides:
+      - title: "About OpenShift Pipelines"
+        description: "Introduction to OpenShift Pipelines"
+        url: "https://docs.redhat.com/en/documentation/red_hat_openshift_pipelines/1.20/pdf/about_openshift_pipelines/Red_Hat_OpenShift_Pipelines-1.20-About_OpenShift_Pipelines-en-US.pdf"
+      - title: "Release notes"
+        description: "Highlights of what is new and what has changed with this OpenShift Pipelines release"
+        url: "https://docs.redhat.com/en/documentation/red_hat_openshift_pipelines/1.20/pdf/release_notes/Red_Hat_OpenShift_Pipelines-1.20-Release_notes-en-US.pdf"
+
+  - category: "02 Installing and configuring"
+    description: "Install, configure, and manage OpenShift Pipelines"
+    guides:
+      - title: "Installing and configuring"
+        description: "Installing and configuring OpenShift Pipelines"
+        url: "https://docs.redhat.com/en/documentation/red_hat_openshift_pipelines/1.20/pdf/installing_and_configuring/Red_Hat_OpenShift_Pipelines-1.20-Installing_and_configuring-en-US.pdf"
+      - title: "Managing performance and resource use"
+        description: "Managing resource consumption in OpenShift Pipelines"
+        url: "https://docs.redhat.com/en/documentation/red_hat_openshift_pipelines/1.20/pdf/managing_performance_and_resource_use/Red_Hat_OpenShift_Pipelines-1.20-Managing_performance_and_resource_use-en-US.pdf"
+
+  - category: "03 Security"
+    description: "Security features of OpenShift Pipelines"
+    guides:
+      - title: "Securing OpenShift Pipelines"
+        description: "Security features of OpenShift Pipelines"
+        url: "https://docs.redhat.com/en/documentation/red_hat_openshift_pipelines/1.20/pdf/securing_openshift_pipelines/Red_Hat_OpenShift_Pipelines-1.20-Securing_OpenShift_Pipelines-en-US.pdf"
+
+  - category: "04 Observability"
+    description: "Observability features of OpenShift Pipelines"
+    guides:
+      - title: "Observability in OpenShift Pipelines"
+        description: "Observability features of OpenShift Pipelines"
+        url: "https://docs.redhat.com/en/documentation/red_hat_openshift_pipelines/1.20/pdf/observability_in_openshift_pipelines/Red_Hat_OpenShift_Pipelines-1.20-Observability_in_OpenShift_Pipelines-en-US.pdf"
+
+  - category: "05 Pipelines as Code"
+    description: "Configuring and using Pipelines as Code"
+    guides:
+      - title: "Pipelines as Code"
+        description: "Configuring and using Pipelines as Code"
+        url: "https://docs.redhat.com/en/documentation/red_hat_openshift_pipelines/1.20/pdf/pipelines_as_code/Red_Hat_OpenShift_Pipelines-1.20-Pipelines_as_Code-en-US.pdf"
+
+  - category: "06 Creating CI/CD pipelines"
+    description: "Creating and running tasks and pipelines"
+    guides:
+      - title: "Creating CI/CD pipelines"
+        description: "Getting started with creating and running tasks and pipelines in OpenShift Pipelines"
+        url: "https://docs.redhat.com/en/documentation/red_hat_openshift_pipelines/1.20/pdf/creating_cicd_pipelines/Red_Hat_OpenShift_Pipelines-1.20-Creating_CICD_pipelines-en-US.pdf"
+
+  - category: "07 Custom Tekton Hub instance"
+    description: "Installing a custom instance of Tekton Hub"
+    guides:
+      - title: "Custom Tekton Hub instance"
+        description: "Installing a custom instance of Tekton Hub"
+        url: "https://docs.redhat.com/en/documentation/red_hat_openshift_pipelines/1.20/pdf/custom_tekton_hub_instance/Red_Hat_OpenShift_Pipelines-1.20-Custom_Tekton_Hub_instance-en-US.pdf"
+
+  - category: "08 Reference"
+    description: "CLI reference documentation"
+    guides:
+      - title: "Pipelines CLI (tkn) reference"
+        description: "The tkn CLI reference for OpenShift Pipelines"
+        url: "https://docs.redhat.com/en/documentation/red_hat_openshift_pipelines/1.20/pdf/pipelines_cli_tkn_reference/Red_Hat_OpenShift_Pipelines-1.20-Pipelines_CLI_tkn_reference-en-US.pdf"

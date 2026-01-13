@@ -1,0 +1,115 @@
+product: Red_Hat_Advanced_Cluster_Security_for_Kubernetes
+version: "4.9"
+base_pdf_url: "https://docs.redhat.com/en/documentation/red_hat_advanced_cluster_security_for_kubernetes/4.9"
+
+documentation_sections:
+# These are not needed, because are links to other documents
+  # - category: "01 Top Use Cases"
+  #   description: "Common security operations and use cases"
+  #   guides:
+  #     - title: "Examining images for vulnerabilities"
+  #       description: "Configuring scanning and scanning images"
+  #       url: "https://docs.redhat.com/en/documentation/red_hat_advanced_cluster_security_for_kubernetes/4.9/pdf/operating/Red_Hat_Advanced_Cluster_Security_for_Kubernetes-4.9-Operating-en-US.pdf"
+  #     # - title: "Managing compliance"
+  #     #   description: "Monitoring workload and cluster compliance"
+  #     #   url: "https://docs.redhat.com/en/documentation/red_hat_advanced_cluster_security_for_kubernetes/4.9/pdf/managing_compliance/Red_Hat_Advanced_Cluster_Security_for_Kubernetes-4.9-Managing_compliance-en-US.pdf"
+  #     # - title: "Managing security policies"
+  #     #   description: "Using default security policies and configuring custom policies"
+  #     #   url: "https://docs.redhat.com/en/documentation/red_hat_advanced_cluster_security_for_kubernetes/4.9/pdf/managing_security_policies/Red_Hat_Advanced_Cluster_Security_for_Kubernetes-4.9-Managing_security_policies-en-US.pdf"
+  #     - title: "Managing network policies"
+  #       description: "Viewing the network graph and using the network graph to generate policies"
+  #       url: "https://docs.redhat.com/en/documentation/red_hat_advanced_cluster_security_for_kubernetes/4.9/pdf/managing_network_policies/Red_Hat_Advanced_Cluster_Security_for_Kubernetes-4.9-Managing_network_policies-en-US.pdf"
+  #     - title: "Reissuing internal certificates"
+  #       description: "Manually rotating internal certificates for non-Operator installations"
+  #       url: "https://docs.redhat.com/en/documentation/red_hat_advanced_cluster_security_for_kubernetes/4.9/pdf/configuring/Red_Hat_Advanced_Cluster_Security_for_Kubernetes-4.9-Configuring-en-US.pdf"
+  #     - title: "Generating a diagnostic bundle"
+  #       description: "Creating a bundle used for troubleshooting"
+  #       url: "https://docs.redhat.com/en/documentation/red_hat_advanced_cluster_security_for_kubernetes/4.9/pdf/generating_a_diagnostic_bundle/Red_Hat_Advanced_Cluster_Security_for_Kubernetes-4.9-Generating_a_diagnostic_bundle-en-US.pdf"
+
+  - category: "02 About"
+    description: "Overview and architecture of RHACS"
+    guides:
+      - title: "About"
+        description: "Welcome to Red Hat Advanced Cluster Security for Kubernetes"
+        url: "https://docs.redhat.com/en/documentation/red_hat_advanced_cluster_security_for_kubernetes/4.9/pdf/about/Red_Hat_Advanced_Cluster_Security_for_Kubernetes-4.9-About-en-US.pdf"
+      - title: "Release notes"
+        description: "Highlights what is new and what has changed with Red Hat Advanced Cluster Security for Kubernetes releases"
+        url: "https://docs.redhat.com/en/documentation/red_hat_advanced_cluster_security_for_kubernetes/4.9/pdf/release_notes/Red_Hat_Advanced_Cluster_Security_for_Kubernetes-4.9-Release_notes-en-US.pdf"
+      - title: "RHACS Cloud Service"
+        description: "About the RHACS Cloud Service"
+        url: "https://docs.redhat.com/en/documentation/red_hat_advanced_cluster_security_for_kubernetes/4.9/pdf/rhacs_cloud_service/Red_Hat_Advanced_Cluster_Security_for_Kubernetes-4.9-RHACS_Cloud_Service-en-US.pdf"
+      - title: "Architecture"
+        description: "System architecture"
+        url: "https://docs.redhat.com/en/documentation/red_hat_advanced_cluster_security_for_kubernetes/4.9/pdf/architecture/Red_Hat_Advanced_Cluster_Security_for_Kubernetes-4.9-Architecture-en-US.pdf"
+
+  - category: "03 Install"
+    description: "Installing RHACS"
+    guides:
+      - title: "Installing"
+        description: "Installing Red Hat Advanced Cluster Security for Kubernetes"
+        url: "https://docs.redhat.com/en/documentation/red_hat_advanced_cluster_security_for_kubernetes/4.9/pdf/installing/Red_Hat_Advanced_Cluster_Security_for_Kubernetes-4.9-Installing-en-US.pdf"
+
+  - category: "04 Upgrade"
+    description: "Upgrading RHACS"
+    guides:
+      - title: "Upgrading"
+        description: "Upgrading Red Hat Advanced Cluster Security for Kubernetes"
+        url: "https://docs.redhat.com/en/documentation/red_hat_advanced_cluster_security_for_kubernetes/4.9/pdf/upgrading/Red_Hat_Advanced_Cluster_Security_for_Kubernetes-4.9-Upgrading-en-US.pdf"
+
+  - category: "05 Configure"
+    description: "Configuring and operating RHACS"
+    guides:
+      - title: "Configuring"
+        description: "Configuring Red Hat Advanced Cluster Security for Kubernetes"
+        url: "https://docs.redhat.com/en/documentation/red_hat_advanced_cluster_security_for_kubernetes/4.9/pdf/configuring/Red_Hat_Advanced_Cluster_Security_for_Kubernetes-4.9-Configuring-en-US.pdf"
+      - title: "Operating"
+        description: "Operating Red Hat Advanced Cluster Security for Kubernetes"
+        url: "https://docs.redhat.com/en/documentation/red_hat_advanced_cluster_security_for_kubernetes/4.9/pdf/operating/Red_Hat_Advanced_Cluster_Security_for_Kubernetes-4.9-Operating-en-US.pdf"
+
+  - category: "06 Integration"
+    description: "Integrating RHACS with other systems"
+    guides:
+      - title: "Integrating"
+        description: "Integrating Red Hat Advanced Cluster Security for Kubernetes"
+        url: "https://docs.redhat.com/en/documentation/red_hat_advanced_cluster_security_for_kubernetes/4.9/pdf/integrating/Red_Hat_Advanced_Cluster_Security_for_Kubernetes-4.9-Integrating-en-US.pdf"
+
+  - category: "07 Manage"
+    description: "Backup and restore operations"
+    guides:
+      - title: "Backup and restore"
+        description: "Backing up and restoring Red Hat Advanced Cluster Security for Kubernetes"
+        url: "https://docs.redhat.com/en/documentation/red_hat_advanced_cluster_security_for_kubernetes/4.9/pdf/backup_and_restore/Red_Hat_Advanced_Cluster_Security_for_Kubernetes-4.9-Backup_and_restore-en-US.pdf"
+
+  - category: "08 Reference"
+    description: "CLI and API reference documentation"
+    guides:
+      - title: "roxctl CLI"
+        description: "roxctl CLI reference"
+        url: "https://docs.redhat.com/en/documentation/red_hat_advanced_cluster_security_for_kubernetes/4.9/pdf/roxctl_cli/Red_Hat_Advanced_Cluster_Security_for_Kubernetes-4.9-roxctl_CLI-en-US.pdf"
+      - title: "API reference"
+        description: "API Reference guide for Red Hat Advanced Cluster Security for Kubernetes"
+        url: "https://docs.redhat.com/en/documentation/red_hat_advanced_cluster_security_for_kubernetes/4.9/pdf/api_reference/Red_Hat_Advanced_Cluster_Security_for_Kubernetes-4.9-API_reference-en-US.pdf"
+
+  - category: "09 Monitor"
+    description: "Support and monitoring"
+    guides:
+      - title: "Support"
+        description: "Getting support for Red Hat Advanced Cluster Security for Kubernetes"
+        url: "https://docs.redhat.com/en/documentation/red_hat_advanced_cluster_security_for_kubernetes/4.9/pdf/support/Red_Hat_Advanced_Cluster_Security_for_Kubernetes-4.9-Support-en-US.pdf"
+
+  - category: "10 Troubleshooting"
+    description: "Troubleshooting guides"
+    guides:
+      - title: "Troubleshooting Collector"
+        description: "Troubleshooting Collector"
+        url: "https://docs.redhat.com/en/documentation/red_hat_advanced_cluster_security_for_kubernetes/4.9/pdf/troubleshooting_collector/Red_Hat_Advanced_Cluster_Security_for_Kubernetes-4.9-Troubleshooting_Collector-en-US.pdf"
+      - title: "Troubleshooting Central"
+        description: "Troubleshooting Central"
+        url: "https://docs.redhat.com/en/documentation/red_hat_advanced_cluster_security_for_kubernetes/4.9/pdf/troubleshooting_central/Red_Hat_Advanced_Cluster_Security_for_Kubernetes-4.9-Troubleshooting_Central-en-US.pdf"
+
+  - category: "11 Telemetry"
+    description: "Telemetry configuration"
+    guides:
+      - title: "Telemetry"
+        description: "Understanding telemetry"
+        url: "https://docs.redhat.com/en/documentation/red_hat_advanced_cluster_security_for_kubernetes/4.9/pdf/telemetry/Red_Hat_Advanced_Cluster_Security_for_Kubernetes-4.9-Telemetry-en-US.pdf"
