@@ -1,0 +1,18 @@
+{{- if .Values.route.enabled }}
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: docs
+  namespace: {{ .Values.namespace }}
+  labels:
+    app: docs
+spec:
+  to:
+    kind: Service
+    name: docs
+  port:
+    targetPort: http
+  tls:
+    termination: edge
+    insecureEdgeTerminationPolicy: Redirect
+{{- end }}

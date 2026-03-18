@@ -1,0 +1,16 @@
+namespace: rhokp
+
+image:
+  repository: registry.redhat.io/offline-knowledge-portal/rhokp-rhel9
+  tag: latest
+  pullPolicy: IfNotPresent
+
+accessKey: ""
+
+route:
+  enabled: true
+
+consolelink:
+  enabled: true
+
+clusterDomain: "opentlc.com"
