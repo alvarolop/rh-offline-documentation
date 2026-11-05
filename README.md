@@ -27,12 +27,12 @@ It runs as a single container image, compatible with OpenShift, Podman, or any O
 **Run it:**
 
 ```bash
-podman run --rm -p 8080:8080 -p 8443:8443 \
+podman run --rm --name rhokp --pull=newer -p 18780:8080 \
 --env "ACCESS_KEY=$(cat ~/rhokp-api-key)" \
 -d registry.redhat.io/offline-knowledge-portal/rhokp-rhel9:latest
 ```
 
-Wait a minute and access the documentation at [http://127.0.0.1:8080](http://127.0.0.1:8080).
+`--pull=newer` checks the registry on every start and pulls only when the remote digest differs from the local image. Wait a minute and access the documentation at [http://127.0.0.1:18780](http://127.0.0.1:18780).
 
 ---
 
