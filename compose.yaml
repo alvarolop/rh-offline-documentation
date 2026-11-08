@@ -1,0 +1,18 @@
+name: rhokp
+
+services:
+  rhokp:
+    image: registry.redhat.io/offline-knowledge-portal/rhokp-rhel9:latest
+    container_name: rhokp
+    pull_policy: newer
+    ports:
+      - "18780:8080"
+    environment:
+      ACCESS_KEY: ${RHOKP_ACCESS_KEY:?Set RHOKP_ACCESS_KEY, e.g. RHOKP_ACCESS_KEY=$(cat ~/rhokp-api-key)}
+      ONLINE_VIEW: "true"
+      UNCLASSIFIED_BANNER: "true"
+      SOLR_MEM: 2g
+    tmpfs:
+      - /run/httpd:mode=1777
+    stop_signal: SIGKILL
+    restart: "no"

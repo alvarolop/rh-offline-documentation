@@ -34,6 +34,17 @@ podman run --rm --name rhokp --pull=newer -p 18780:8080 \
 
 `--pull=newer` checks the registry on every start and pulls only when the remote digest differs from the local image. Wait a minute and access the documentation at [http://127.0.0.1:18780](http://127.0.0.1:18780).
 
+**Run it with Podman Compose / Podman Desktop:**
+
+The repo includes a [`compose.yaml`](compose.yaml) equivalent to the command above. The access key is read from the `RHOKP_ACCESS_KEY` environment variable:
+
+```bash
+RHOKP_ACCESS_KEY=$(cat ~/rhokp-api-key) podman compose up -d
+podman compose down
+```
+
+The project is named `rhokp`, so Podman Desktop groups it under that name. Set `PODMAN_COMPOSE_WARNING_LOGS=false` to silence the "Executing external compose provider" message.
+
 ---
 
 ### 2️⃣ Download PDFs with Script
